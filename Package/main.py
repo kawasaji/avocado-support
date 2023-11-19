@@ -6,7 +6,7 @@ sys.path.insert(1, 'Package')
 
 from math import *
 from config import *
-from aiogram import Bot, Dispatcher
+from aiogram import Bot, Dispatcher, types, executor
 import asyncio
 from datetime import datetime
 

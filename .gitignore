@@ -1,1 +1,3 @@
 config.py
+__pycache__/
+Package/__pycache__/

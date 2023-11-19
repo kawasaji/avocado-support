@@ -8,7 +8,7 @@ async def start_notify(dp):
 print("started?")
 
 if __name__ == '__main__':
-    from handler.handlers import dp
+    from Package.main import dp
     
     # scheduler.start()
     executor.start_polling(dp, on_startup=start_notify, skip_updates=True)
